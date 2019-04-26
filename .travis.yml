@@ -44,6 +44,7 @@ matrix:
       script:
         - docker run --env CCACHE_DIR=/ccache --volumes-from ccache stitchem-cuda8:latest
     - name: CUDA 9 Linux
+      if: branch = master
       dist: xenial
       services:
         - docker
@@ -53,6 +54,7 @@ matrix:
       script:
         - docker run --env CCACHE_DIR=/ccache --volumes-from ccache stitchem-cuda9:latest
     - name: CUDA 10 Linux
+      if: branch = master
       dist: xenial
       services:
         - docker
