@@ -16,7 +16,7 @@ option(BUILD_STATIC_LIB "Build static VideoStitch lib" OFF)
 option(BUILD_IO_PLUGINS "Build VideoStitch I/O plugins" ON)
 option(BUILD_APPS "Build VideoStitch applications" ON)
 
-option(BUILD_MACOSX_BUNDLE "Build the mac package instead of the binaries" OFF)
+option(BUILD_MACOSX_BUNDLE "Build the mac package instead of the binaries" ON)
 
 option(LCOV "Build apps with coverage" OFF)
 option(STAGING "Test staging (test developer option)" OFF)
