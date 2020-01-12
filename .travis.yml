@@ -36,6 +36,7 @@ matrix:
     - ninja
     deploy:
       provider: s3
+      edge: true
       access_key_id: AKIAI2SLK76O6MKJF43Q
       secret_access_key:
         secure: $AWS_SECRET_KEY
