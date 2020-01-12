@@ -38,7 +38,7 @@ matrix:
       provider: s3
       access_key_id: AKIAI2SLK76O6MKJF43Q
       secret_access_key:
-        secure: T0DbqhcYZbOsoo//18kWAQnbDzUBYrqvKqg58rZifz02hah3umqZp14acvPRCDwSyD/u3Ad2UXt2auHXB+g4/gd1jDBpcgBUgb27QnuzFNdbqQnUhu5ODhaO3gWHlaLubfGTh/sEAMxD6NJzPGpaaJ9A5iuawEF3yLPgTCVfQxatFxFnYU/wbtW+RY0F4WgxeIiKg/NORg2H/fnGUbNk/IIJvJsc4B6c+lcFgT5V0E0EkqZF+KeXEkzBUoi9fpQTosuBJ+Dxi1OTT9nA+P4EQTtwammH19nd/7a7FEwDNv7XiuUKfNUoAd9XwByZvpfQCQ23dFdmRkB9wqoB/VpYkghB1PZVkp9VNht/B7rZ8SrKXqgR2PxiSPw4TllDQ2sjxrP3+Rjqm61tg+6TS7+OxOrmbBsLBbAhyKgw1LrH69cvqkW7VXqQRJERmGMnPxWpgh5++nN93IfEjSfCxmMUJtqb2AeqdG4PqG913SpIqKycUAPGbjAFKePL1wGJnGIs1KkgLaIc4oNISD0pmf1lQlAlMWJth2tHtzfdWdpMSHPQtmFS0/KqesuEgCmCut6cKwzJ6x/Rk0dYlUBq+ixbWWdsRybsL7FqDpOpAA6xu9Sv2jEiGMS2ElLvJQlI6QzGcWpK/oW/sWONJXjdV3Sh4vK2uLzOsnFHmFLIwgZIkAY=
+        secure: $AWS_SECRET_KEY
       bucket: hh-builds
       skip_cleanup: true
       on:
